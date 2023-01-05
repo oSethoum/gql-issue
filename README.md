@@ -1,5 +1,3 @@
-# gql-issue
-
 ## Reproduction steps:
 
 - Run commands
