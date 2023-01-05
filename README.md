@@ -62,7 +62,7 @@ mutation CreateTodo($userId: ID!) {
 
 ## Issues:
 
-- when the edge Todo -> User is Required `CreateTodo` and `WatchTodo` return an error
+- when the edge `Todo -> User` is Required `CreateTodo` and `WatchTodo` return an error
 
 ```json
 {
@@ -76,7 +76,7 @@ mutation CreateTodo($userId: ID!) {
 }
 ```
 
-- when the edge Todo -> User is not Required `CreateTodo` returns null for user field.
+- when the edge `Todo -> User` is not Required `CreateTodo`and `WatchTodo` return null for user field.
 
 ```json
 {
