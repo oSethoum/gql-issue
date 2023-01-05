@@ -2,7 +2,7 @@
 
 ## Reproduction steps:
 
-- run commands
+- Run commands
 
 ```console
   go generate ./ent/generate
